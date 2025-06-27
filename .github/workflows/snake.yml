@@ -28,15 +28,43 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      # Generates the snake  
+      # Install system dependencies for canvas (from issue solutions)
+      - name: Install Canvas Dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y \
+            build-essential \
+            libcairo2-dev \
+            libpango1.0-dev \
+            libjpeg-dev \
+            libgif-dev \
+            librsvg2-dev \
+            pkg-config \
+            python3-dev
+
+      # Setup Node.js (canvas needs specific node version)
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+
+      # Pre-install canvas to avoid runtime issues
+      - name: Pre-install Canvas
+        run: |
+          npm install canvas
+        continue-on-error: true
+
+      # Generates the snake using regular action (not svg-only)
       - name: Generate github-contribution-grid-snake.svg
-        uses: Platane/snk/svg-only@v3
+        uses: Platane/snk@v3
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
             dist/ocean.gif?color_snake=orange&color_dots=#bfd6f6,#8dbdff,#64a1f4,#4b91f1,#3c7dd9
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       # Push the content of <build_dir> to a branch
       - name: Push github-contribution-grid-snake.svg to the output branch
