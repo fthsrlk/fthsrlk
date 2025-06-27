@@ -14,7 +14,7 @@
   
   <!-- Typing Animation -->
   <br/><br/>
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=F70000&center=true&vCenter=true&width=600&lines=Merhaba+👋+Ben+Fatih+Şarlak;Full-Stack+Developer+%26+SaaS+Architect;5%2B+Yıl+Yazılım+Geliştirme+Deneyimi;Modern+Web+Teknolojileri+Uzmanı;GurmeClickPOS+SaaS+Kurucusu" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=F70000&center=true&vCenter=true&width=600&lines=Merhaba+👋+Ben+Fatih+Şarlak;Full-Stack+Developer+%26+SaaS+Architect;5%2B+Yıl+Yazılım+Geliştirme+Deneyimi;Modern+Web+Teknolojileri+Uzmanı;GurmeClickPOS+SaaS+Kurucusu" alt="Typing SVG" />
   
 </div>
 
@@ -39,88 +39,68 @@
 <!-- Hakkımda Bölümü -->
 ## <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="30"> Hakkımda
 
+<div align="center">
+<table>
+<tr>
+<td width="50%">
+
 <img align="right" alt="Coding" width="400" src="https://user-images.githubusercontent.com/74038190/229223263-cf2e4b07-2615-4f87-9c38-e37600f8381a.gif">
 
-```typescript
-const fatih = {
-  code: ["C#", "TypeScript", "JavaScript", "Python", "SQL"],
-  technologies: {
-    frontEnd: {
-      js: ["React", "Vue", "Next.js", "Nuxt.js"],
-      css: ["Tailwind", "Bootstrap", "Material-UI", "Styled Components"],
-      ui: ["Blazor", "Angular"]
-    },
-    backEnd: {
-      csharp: [".NET Core", "ASP.NET", "Entity Framework"],
-      js: ["Node.js", "Express", "NestJS"],
-      python: ["FastAPI", "Django"]
-    },
-    databases: ["PostgreSQL", "MongoDB", "Redis", "Supabase"],
-    devOps: ["Azure", "Docker", "GitHub Actions", "CI/CD"],
-    cloud: ["Azure", "AWS", "Vercel", "Netlify"],
-    tools: ["Git", "VS Code", "Visual Studio", "Postman", "Figma"]
-  },
-  architecture: ["Microservices", "SaaS", "RESTful APIs", "GraphQL", "WebSockets"],
-  currentFocus: "Building scalable SaaS solutions with modern web technologies",
-  funFact: "Kahve ☕ + Kod 💻 = Mutluluk 😊"
-};
-```
+</td>
+<td width="50%">
+
+### 👨‍💻 Fatih Şarlak
+**Full-Stack Developer & SaaS Architect**
+
+🎯 **Odak Alanlarım:**
+- 🚀 Modern SaaS çözümleri geliştirme
+- 💡 Scalable mimari tasarımları
+- 🌐 Full-stack web uygulamaları
+- 📱 Cross-platform mobil uygulamalar
+- 🤖 AI/ML entegrasyonları
+
+📍 **Lokasyon:** Konya, Türkiye  
+💼 **Deneyim:** 5+ yıl  
+🎓 **Eğitim:** Bilgisayar Mühendisliği  
+
+✨ **Fun Fact:** Kahve ☕ + Kod 💻 = Mutluluk 😊
+
+</td>
+</tr>
+</table>
+</div>
 
 <!-- Tech Stack Bölümü -->
-## 🛠️ Tech Stack
+## 🛠️ Tech Stack & Tools
 
-<details open>
-<summary><b>🎯 Ana Teknolojiler</b></summary>
-<br/>
+<div align="center">
 
-![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=csharp&logoColor=white)
-![.NET](https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
+### 💻 Languages & Frameworks
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=cs,dotnet,ts,js,react,nextjs,nodejs,vue,nuxtjs,python&theme=dark" />
+</p>
 
-</details>
+### 🎨 Frontend & Styling
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=html,css,tailwind,sass,bootstrap,materialui,figma&theme=dark" />
+</p>
 
-<details>
-<summary><b>🎨 Frontend</b></summary>
-<br/>
+### 🗄️ Backend & Databases
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=postgres,mongodb,redis,supabase,graphql,firebase&theme=dark" />
+</p>
 
-![Vue.js](https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vuedotjs&logoColor=4FC08D)
-![Nuxt.js](https://img.shields.io/badge/Nuxt.js-00DC82?style=for-the-badge&logo=nuxtdotjs&logoColor=white)
-![Blazor](https://img.shields.io/badge/Blazor-512BD4?style=for-the-badge&logo=blazor&logoColor=white)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
-![Bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white)
-![SASS](https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white)
+### 🔧 DevOps & Tools
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=azure,docker,githubactions,git,vscode,visualstudio,postman&theme=dark" />
+</p>
 
-</details>
+### ☁️ Cloud & Hosting
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=vercel,netlify,aws,cloudflare&theme=dark" />
+</p>
 
-<details>
-<summary><b>⚙️ Backend & Database</b></summary>
-<br/>
-
-![ASP.NET](https://img.shields.io/badge/ASP.NET-5C2D91?style=for-the-badge&logo=.net&logoColor=white)
-![Entity Framework](https://img.shields.io/badge/Entity_Framework-512BD4?style=for-the-badge&logo=.net&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
-![Supabase](https://img.shields.io/badge/Supabase-3FCF8E?style=for-the-badge&logo=supabase&logoColor=white)
-![GraphQL](https://img.shields.io/badge/GraphQL-E10098?style=for-the-badge&logo=graphql&logoColor=white)
-
-</details>
-
-<details>
-<summary><b>☁️ Cloud & DevOps</b></summary>
-<br/>
-
-![Azure](https://img.shields.io/badge/Microsoft_Azure-0089D0?style=for-the-badge&logo=microsoft-azure&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
-![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
-![Netlify](https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)
-
-</details>
+</div>
 
 <!-- GitHub İstatistikleri -->
 ## 📊 GitHub İstatistikleri
@@ -180,8 +160,14 @@ const fatih = {
 ## 🐍 Contribution Snake
 
 <div align="center">
-  <img src="https://github.com/fthsrlk/fthsrlk/blob/output/github-contribution-grid-snake-dark.svg" alt="Snake animation" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/fthsrlk/fthsrlk/output/github-contribution-grid-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/fthsrlk/fthsrlk/output/github-contribution-grid-snake.svg">
+    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/fthsrlk/fthsrlk/output/github-contribution-grid-snake.svg">
+  </picture>
 </div>
+
+> 💡 **Not:** Snake animasyonu için GitHub Actions kurulumu gerekiyor. [Bu linkteki](https://github.com/Platane/snk) talimatları takip edin.
 
 <!-- İletişim -->
 ## 📫 İletişim
