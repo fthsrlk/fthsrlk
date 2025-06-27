@@ -28,7 +28,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      # Install system dependencies for canvas (from issue solutions)
+      # Install system dependencies for canvas
       - name: Install Canvas Dependencies
         run: |
           sudo apt-get update
@@ -42,27 +42,20 @@ jobs:
             pkg-config \
             python3-dev
 
-      # Setup Node.js (canvas needs specific node version)
+      # Setup Node.js
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: '18'
 
-      # Pre-install canvas to avoid runtime issues
-      - name: Pre-install Canvas
-        run: |
-          npm install canvas
-        continue-on-error: true
-
-      # Generates the snake using regular action (not svg-only)
+      # Generates the snake with GitHub users as food
       - name: Generate github-contribution-grid-snake.svg
         uses: Platane/snk@v3
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
-            dist/ocean.gif?color_snake=orange&color_dots=#bfd6f6,#8dbdff,#64a1f4,#4b91f1,#3c7dd9
+            dist/github-snake.svg
+            dist/github-snake-dark.svg?palette=github-dark&color_snake=#ff6b35&color_dots=#bfd6f6,#8dbdff,#64a1f4,#4b91f1,#3c7dd9
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
