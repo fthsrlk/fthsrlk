@@ -4,8 +4,8 @@ name: Generate Snake
 on:
   # Triggers the workflow on push or pull request events but only for the master branch
   schedule:
-    # runs every 12 hours
-    - cron: "0 */12 * * *"
+    # runs every 6 hours (more frequent updates)
+    - cron: "0 */6 * * *"
   
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -21,7 +21,7 @@ jobs:
     permissions:
       contents: write
     runs-on: ubuntu-latest
-    timeout-minutes: 5
+    timeout-minutes: 10
     
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
@@ -48,16 +48,21 @@ jobs:
         with:
           node-version: '18'
 
-      # Generates the snake with GitHub users as food
+      # Generates the snake with enhanced settings for more contributions
       - name: Generate github-contribution-grid-snake.svg
         uses: Platane/snk@v3
         with:
           github_user_name: ${{ github.repository_owner }}
+          # Generate both light and dark versions with enhanced visibility
           outputs: |
-            dist/github-snake.svg
-            dist/github-snake-dark.svg?palette=github-dark&color_snake=#ff6b35&color_dots=#bfd6f6,#8dbdff,#64a1f4,#4b91f1,#3c7dd9
+            dist/github-snake.svg?palette=github-light&color_snake=#ff6b35&color_dots=#c6e48b,#7bc96f,#239a3b,#196127,#0d2818
+            dist/github-snake-dark.svg?palette=github-dark&color_snake=#ff6b35&color_dots=#39d353,#26a641,#006d32,#0d4429,#010409
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      # Show build status for debugging
+      - name: Show build status
+        run: git status
 
       # Push the content of <build_dir> to a branch
       - name: Push github-contribution-grid-snake.svg to the output branch
