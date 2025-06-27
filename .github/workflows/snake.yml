@@ -1,6 +1,6 @@
 name: Generate Classic Snake Animation
 
-# Optimized schedule based on Platane/snk documentation best practices
+# Platane/snk dokümantasyonuna göre optimize edilmiş en güncel konfigürasyon
 on:
   # Manual trigger for immediate testing
   workflow_dispatch:
@@ -12,7 +12,7 @@ on:
       - '**.md'
       - 'docs/**'
   
-  # Weekly schedule - Sundays at midnight UTC (optimal for GitHub Actions)
+  # Weekly schedule - Sundays at midnight UTC (GitHub Actions best practice)
   schedule:
     - cron: "0 0 * * 0"
 
@@ -27,19 +27,30 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      # Generate classic responsive snake animation 
+      # GitHub contribution grid snake generation
       - name: Generate Classic Snake Animation
         uses: Platane/snk@v3
         with:
+          # GitHub user name to read the contribution graph from (**required**)
+          # Using action context var `github.repository_owner` 
           github_user_name: ${{ github.repository_owner }}
-          # Classic responsive output with light/dark mode support
+          
+          # List of files to generate.
+          # One file per line. Each output can be customized with options as query string.
+          #
+          # Supported options:
+          # - palette: A preset of color, one of [github, github-dark, github-light]
+          # - color_snake: Color of the snake
+          # - color_dots: Comma separated list of dots color.
+          #               The first one is 0 contribution, then it goes from low to highest.
+          #               Exactly 5 colors are expected.
           outputs: |
             dist/github-snake.svg
             dist/github-snake-dark.svg?palette=github-dark
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      # Deploy to output branch
+      # Deploy to output branch for GitHub Profile README
       - name: Deploy Snake to Output Branch
         uses: crazy-max/ghaction-github-pages@v4
         with:
