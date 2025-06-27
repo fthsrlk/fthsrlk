@@ -158,25 +158,41 @@
 ## 🎯 Son Aktiviteler
 
 <!--START_SECTION:activity-->
-1. 🎉 GurmeClickPOS projesinde yeni özellikler eklendi
+1. 🍔 GurmeClickPOS projesinde yeni özellikler eklendi
 2. 🐛 Bug fix: Authentication sorunu çözüldü
 3. 📝 Dokümantasyon güncellendi
 4. 🚀 Yeni deployment pipeline oluşturuldu
 5. ⚡ Performance optimizasyonları tamamlandı
 <!--END_SECTION:activity-->
 
-<!-- Snake Animation -->
-## 🐍 Contribution Snake
+<!-- Snake Animation - Platane/snk Style -->
+## 🐍 Contribution Snake Animation
 
 <div align="center">
+  
+  ### 🌊 Ocean Theme Snake
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/fthsrlk/fthsrlk/output/ocean.gif">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/fthsrlk/fthsrlk/output/ocean.gif">
+    <img alt="Snake eating my contributions with ocean theme" src="https://raw.githubusercontent.com/fthsrlk/fthsrlk/output/ocean.gif" width="100%">
+  </picture>
+  
+  ### 🎨 Classic Snake (Light/Dark Mode)
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/fthsrlk/fthsrlk/output/github-contribution-grid-snake-dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/fthsrlk/fthsrlk/output/github-contribution-grid-snake.svg">
-    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/fthsrlk/fthsrlk/output/github-contribution-grid-snake.svg">
+    <img alt="GitHub contribution grid snake animation" src="https://raw.githubusercontent.com/fthsrlk/fthsrlk/output/github-contribution-grid-snake.svg" width="100%">
   </picture>
+  
 </div>
 
-> 💡 **Not:** Snake animasyonu için GitHub Actions kurulumu gerekiyor. [Bu linkteki](https://github.com/Platane/snk) talimatları takip edin.
+> 🚀 **Powered by:** [Platane/snk](https://github.com/Platane/snk) - Modern GitHub contribution snake generator
+> 
+> 🎯 **Features:** 
+> - 🌊 Custom ocean-themed animation with orange snake
+> - 🌓 Automatic light/dark theme detection  
+> - ⚡ Updates every 12 hours via GitHub Actions
+> - 🎨 Multiple color schemes and themes
 
 <!-- İletişim -->
 ## 📫 İletişim
@@ -206,7 +222,7 @@
 </div>
 
 <!-- Gizli Mesaj -->
-<!---
+<!--
 fthsrlk/fthsrlk is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 Made with ❤️ by Fatih Şarlak
----> 
+-->
