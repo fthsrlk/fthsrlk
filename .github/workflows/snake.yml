@@ -19,6 +19,8 @@ on:
 jobs:
   # This workflow contains a single job called "build"
   generate:
+    permissions:
+      contents: write
     runs-on: ubuntu-latest
     timeout-minutes: 10
     
