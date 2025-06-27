@@ -1,36 +1,45 @@
 <div align="center">
   
-  <!-- Ana Banner -->
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,2,5,30&height=300&section=header&text=Fatih%20Şarlak&fontSize=90&animation=fadeIn&fontAlignY=38&desc=Full-Stack%20Developer%20|%20SaaS%20Architect%20|%20Tech%20Innovator&descAlignY=51&descAlign=62" alt="header"/>
+  <!-- Premium Animated Banner -->
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,2,2,5,30&height=280&section=header&text=Fatih%20Şarlak&fontSize=90&animation=twinkling&fontAlignY=35&desc=Full-Stack%20Developer%20|%20SaaS%20Architect%20|%20Tech%20Innovator&descAlignY=55&descAlign=50&fontColor=fff&stroke=00000000&strokeWidth=0.3" alt="header"/>
   
-  <!-- Profil Ziyaretçi Sayacı -->
-  <br/>
-  <a href="https://github.com/fthsrlk">
-    <img src="https://komarev.com/ghpvc/?username=fthsrlk&label=Profile%20Views&color=6A0DAD&style=for-the-badge" alt="Profile Views" />
-  </a>
-  <a href="https://github.com/fthsrlk?tab=followers">
-    <img src="https://img.shields.io/github/followers/fthsrlk?label=Followers&style=for-the-badge&color=770737&labelColor=E74C3C" alt="GitHub followers" />
-  </a>
+  <!-- Badges Container -->
+  <div align="center" style="margin-top: -30px;">
+    <a href="https://github.com/fthsrlk">
+      <img src="https://komarev.com/ghpvc/?username=fthsrlk&label=Profile%20Views&color=blueviolet&style=for-the-badge" alt="Profile Views" />
+    </a>
+    <a href="https://github.com/fthsrlk?tab=followers">
+      <img src="https://img.shields.io/github/followers/fthsrlk?label=Followers&style=for-the-badge&color=ff69b4&labelColor=333333" alt="GitHub followers" />
+    </a>
+    <a href="https://github.com/fthsrlk?tab=stars">
+      <img src="https://img.shields.io/github/stars/fthsrlk?label=Total%20Stars&style=for-the-badge&color=ffd700&labelColor=333333" alt="GitHub stars" />
+    </a>
+  </div>
   
-  <!-- Typing Animation -->
-  <br/><br/>
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=F70000&center=true&vCenter=true&width=600&lines=Merhaba+👋+Ben+Fatih+Şarlak;Full-Stack+Developer+%26+SaaS+Architect;5%2B+Yıl+Yazılım+Geliştirme+Deneyimi;Modern+Web+Teknolojileri+Uzmanı;GurmeClickPOS+SaaS+Kurucusu" alt="Typing SVG" />
+  <!-- Premium Typing Animation -->
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=36BCF7&center=true&vCenter=true&multiline=true&repeat=true&width=700&height=100&lines=Merhaba+👋+Ben+Fatih+Şarlak;Full-Stack+Developer+%26+SaaS+Architect;5%2B+Yıl+Yazılım+Geliştirme+Deneyimi;Modern+Web+Teknolojileri+Uzmanı" alt="Typing SVG" />
+  
+  <!-- Animated Divider -->
+  <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
   
 </div>
 
 <!-- Sosyal Medya Bağlantıları -->
 <div align="center">
   <a href="https://linkedin.com/in/fatihşarlak" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0A66C2" alt="LinkedIn"/>
   </a>
   <a href="https://fatihsarlak.com" target="_blank">
-    <img src="https://img.shields.io/badge/Website-FF5722?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Website"/>
+    <img src="https://img.shields.io/badge/🌐_Website-FF5722?style=for-the-badge&labelColor=FF5722" alt="Website"/>
   </a>
   <a href="mailto:fatih@fatihsarlak.com">
-    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
+    <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white&labelColor=EA4335" alt="Email"/>
   </a>
   <a href="https://twitter.com/fthsrlk" target="_blank">
-    <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter"/>
+    <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white&labelColor=1DA1F2" alt="Twitter"/>
+  </a>
+  <a href="https://github.com/fthsrlk" target="_blank">
+    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white&labelColor=181717" alt="GitHub"/>
   </a>
 </div>
 
