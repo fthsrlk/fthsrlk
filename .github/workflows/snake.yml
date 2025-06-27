@@ -1,6 +1,6 @@
-name: Generate Snake - Ultimate Configuration
+name: Generate Classic Snake Animation
 
-# Optimized schedule based on Platane/snk best practices
+# Optimized schedule based on Platane/snk documentation best practices
 on:
   # Manual trigger for immediate testing
   workflow_dispatch:
@@ -12,7 +12,7 @@ on:
       - '**.md'
       - 'docs/**'
   
-  # Weekly schedule - Sundays at midnight UTC
+  # Weekly schedule - Sundays at midnight UTC (optimal for GitHub Actions)
   schedule:
     - cron: "0 0 * * 0"
 
@@ -27,19 +27,15 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      # Generate multiple snake variants for maximum visual impact
-      - name: Generate Snake Animation - Ultimate Edition
+      # Generate classic responsive snake animation 
+      - name: Generate Classic Snake Animation
         uses: Platane/snk@v3
         with:
           github_user_name: ${{ github.repository_owner }}
-          # Multiple outputs with different themes and styles
+          # Classic responsive output with light/dark mode support
           outputs: |
             dist/github-snake.svg
             dist/github-snake-dark.svg?palette=github-dark
-            dist/github-snake-neon.svg?color_snake=#00ff00&color_dots=#0d1117,#161b22,#21262d,#30363d,#8b949e
-            dist/github-snake-ocean.gif?color_snake=#ffa500&color_dots=#0066cc,#0080ff,#3399ff,#66b3ff,#99ccff
-            dist/github-snake-fire.svg?color_snake=#ff4500&color_dots=#8b0000,#dc143c,#ff6347,#ffa500,#ffff00
-            dist/github-snake-matrix.svg?palette=github-dark&color_snake=#00ff41&color_dots=#0d1117,#003300,#006600,#009900,#00cc00
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
@@ -49,6 +45,6 @@ jobs:
         with:
           target_branch: output
           build_dir: dist
-          commit_message: "🐍 Update snake animations - ${{ github.event.head_commit.message || 'Manual trigger' }}"
+          commit_message: "🐍 Update classic snake animation - ${{ github.event.head_commit.message || 'Manual trigger' }}"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
