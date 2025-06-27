@@ -1,19 +1,21 @@
 name: Generate Snake
 
-# Controls when the action will run
+# Controls when the action will run - Only when needed, not every 6 hours
 on:
-  # Triggers the workflow on push or pull request events but only for the master branch
-  schedule:
-    # runs every 6 hours (more frequent updates)
-    - cron: "0 */6 * * *"
-  
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
   
-  # run on every push on the master branch
+  # Run only on push to master (when you actually make changes)
   push:
     branches:
     - master
+    paths-ignore:
+      - 'README.md'
+      - 'daily-activity.md'
+  
+  # Run weekly on Sundays at 00:00 UTC (once a week is enough)
+  schedule:
+    - cron: "0 0 * * 0"
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
@@ -21,50 +23,24 @@ jobs:
     permissions:
       contents: write
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 15
     
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - name: Checkout
         uses: actions/checkout@v4
 
-      # Install system dependencies for canvas
-      - name: Install Canvas Dependencies
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y \
-            build-essential \
-            libcairo2-dev \
-            libpango1.0-dev \
-            libjpeg-dev \
-            libgif-dev \
-            librsvg2-dev \
-            pkg-config \
-            python3-dev
-
-      # Setup Node.js
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: '18'
-
-      # Generates the snake with enhanced settings for more contributions
+      # Use the official Platane/snk action directly (no custom setup needed)
       - name: Generate github-contribution-grid-snake.svg
         uses: Platane/snk@v3
         with:
           github_user_name: ${{ github.repository_owner }}
-          # Generate both light and dark versions with enhanced visibility
+          # Simple output - just what we need
           outputs: |
-            dist/github-snake.svg?palette=github-light&color_snake=#ff6b35&color_dots=#c6e48b,#7bc96f,#239a3b,#196127,#0d2818
-            dist/github-snake-dark.svg?palette=github-dark&color_snake=#ff6b35&color_dots=#39d353,#26a641,#006d32,#0d4429,#010409
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+            dist/github-snake.svg
+            dist/github-snake-dark.svg?palette=github-dark
 
-      # Show build status for debugging
-      - name: Show build status
-        run: git status
-
-      # Push the content of <build_dir> to a branch
+      # Push the content to output branch
       - name: Push github-contribution-grid-snake.svg to the output branch
         uses: crazy-max/ghaction-github-pages@v4
         with:
