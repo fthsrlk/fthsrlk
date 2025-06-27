@@ -165,34 +165,29 @@
 5. ⚡ Performance optimizasyonları tamamlandı
 <!--END_SECTION:activity-->
 
-<!-- Snake Animation - Platane/snk Style -->
-## 🐍 Contribution Snake Animation
+<!-- Snake Animation - Interactive Demo Style -->
+## 🐍 GitHub Contribution Snake Game
 
 <div align="center">
   
-  ### 🌊 Ocean Theme Snake
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/fthsrlk/fthsrlk/output/ocean.gif">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/fthsrlk/fthsrlk/output/ocean.gif">
-    <img alt="Snake eating my contributions with ocean theme" src="https://raw.githubusercontent.com/fthsrlk/fthsrlk/output/ocean.gif" width="100%">
-  </picture>
-  
-  ### 🎨 Classic Snake (Light/Dark Mode)
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/fthsrlk/fthsrlk/output/github-contribution-grid-snake-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/fthsrlk/fthsrlk/output/github-contribution-grid-snake.svg">
-    <img alt="GitHub contribution grid snake animation" src="https://raw.githubusercontent.com/fthsrlk/fthsrlk/output/github-contribution-grid-snake.svg" width="100%">
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/fthsrlk/fthsrlk/output/github-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/fthsrlk/fthsrlk/output/github-snake.svg">
+    <img alt="Snake eating GitHub contributions" src="https://raw.githubusercontent.com/fthsrlk/fthsrlk/output/github-snake.svg" width="100%">
   </picture>
   
 </div>
 
-> 🚀 **Powered by:** [Platane/snk](https://github.com/Platane/snk) - Modern GitHub contribution snake generator
+> 🎮 **Interactive Demo:** [platane.github.io/snk](https://platane.github.io/snk)
+> 
+> 🚀 **Powered by:** [Platane/snk](https://github.com/Platane/snk) - GitHub contribution snake generator
 > 
 > 🎯 **Features:** 
-> - 🌊 Custom ocean-themed animation with orange snake
-> - 🌓 Automatic light/dark theme detection  
+> - 🐍 Snake eats GitHub contribution squares as food
+> - 🎨 Beautiful orange snake with gradient colors  
+> - 🌓 Automatic light/dark theme detection
 > - ⚡ Updates every 12 hours via GitHub Actions
-> - 🎨 Multiple color schemes and themes
+> - 🎮 Interactive demo available online
 
 <!-- İletişim -->
 ## 📫 İletişim
