@@ -32,10 +32,10 @@
   <a href="https://fatihsarlak.com" target="_blank">
     <img src="https://img.shields.io/badge/🌐_Website-FF5722?style=for-the-badge&labelColor=FF5722" alt="Website"/>
   </a>
-  <a href="mailto:fatih@fatihsarlak.com">
+  <a href="mailto:fatihhars70@gmail.com">
     <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white&labelColor=EA4335" alt="Email"/>
   </a>
-  <a href="https://twitter.com/fthsrlk" target="_blank">
+  <a href="https://x.com/fatihhars70" target="_blank">
     <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white&labelColor=1DA1F2" alt="Twitter"/>
   </a>
   <a href="https://github.com/fthsrlk" target="_blank">
@@ -184,10 +184,10 @@
 <div align="center">
   
   ```text
-  📧 Email: fatih@fatihsarlak.com
+  📧 Email: fatihhars70@gmail.com
   💼 LinkedIn: linkedin.com/in/fatihşarlak
   🌐 Website: fatihsarlak.com
-  🐦 Twitter: @fthsrlk
+  🐦 Twitter: @fatihhars70
   ```
   
 </div>
